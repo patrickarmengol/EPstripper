@@ -36,7 +36,9 @@ pip install pefile
 ## Usage
 
 > please note this does not overwrite the original files, it creates copies
+
 > if you pass it a directory, it will walk through all subdirectories
+
 > the script ignores non PE files
 
 ```
