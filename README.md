@@ -44,7 +44,7 @@ pip install pefile
 ```
 usage: epstripper.py [-h] [-r EP_VAL] input
 
-a script to replace the entrypoint of a PE file
+a script to strip the entrypoints of PE files
 
 positional arguments:
   input       input file or directory
