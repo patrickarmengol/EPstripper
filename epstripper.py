@@ -3,7 +3,7 @@ import argparse
 import os
 
 if __name__=='__main__':
-    parser = argparse.ArgumentParser(description='a script to replace the entrypoint of a PE file')
+    parser = argparse.ArgumentParser(description='a script to strip the entrypoints of PE files')
     parser.add_argument('input', help='input file or directory')
     parser.add_argument('-r', help='specify replacement value - else will use default 0xcc00ffee', metavar='EP_VAL', action='store', type=lambda x: int(x,16), default=0xcc00ffee,)
     args = parser.parse_args()
